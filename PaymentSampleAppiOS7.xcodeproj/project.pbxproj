@@ -14,6 +14,13 @@
 		4F9A47D11BAC7D7B00DC84E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A47D01BAC7D7B00DC84E0 /* Images.xcassets */; };
 		4F9A47D41BAC7D7B00DC84E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A47D21BAC7D7B00DC84E0 /* LaunchScreen.xib */; };
 		4F9A47E01BAC7D7B00DC84E0 /* PaymentSampleAppiOS7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A47DF1BAC7D7B00DC84E0 /* PaymentSampleAppiOS7Tests.m */; };
+		4F9A47F01BAC825B00DC84E0 /* FlintConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A47EF1BAC825B00DC84E0 /* FlintConnect.framework */; };
+		4F9A47F21BAC826400DC84E0 /* FlintConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A47F11BAC826400DC84E0 /* FlintConnect.bundle */; };
+		4F9A47F41BAC829F00DC84E0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A47F31BAC829F00DC84E0 /* Security.framework */; };
+		4F9A47F61BAC82A700DC84E0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A47F51BAC82A700DC84E0 /* CoreTelephony.framework */; };
+		4F9A47F81BAC82C300DC84E0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A47F71BAC82C300DC84E0 /* CoreLocation.framework */; };
+		4F9A47FA1BAC82CB00DC84E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A47F91BAC82CB00DC84E0 /* SystemConfiguration.framework */; };
+		4F9A47FE1BAC83A400DC84E0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A47FD1BAC83A400DC84E0 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,13 @@
 		4F9A47D91BAC7D7B00DC84E0 /* PaymentSampleAppiOS7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentSampleAppiOS7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9A47DE1BAC7D7B00DC84E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F9A47DF1BAC7D7B00DC84E0 /* PaymentSampleAppiOS7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentSampleAppiOS7Tests.m; sourceTree = "<group>"; };
+		4F9A47EF1BAC825B00DC84E0 /* FlintConnect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlintConnect.framework; sourceTree = "<group>"; };
+		4F9A47F11BAC826400DC84E0 /* FlintConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FlintConnect.bundle; sourceTree = "<group>"; };
+		4F9A47F31BAC829F00DC84E0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4F9A47F51BAC82A700DC84E0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4F9A47F71BAC82C300DC84E0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4F9A47F91BAC82CB00DC84E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4F9A47FD1BAC83A400DC84E0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9A47FE1BAC83A400DC84E0 /* libz.dylib in Frameworks */,
+				4F9A47FA1BAC82CB00DC84E0 /* SystemConfiguration.framework in Frameworks */,
+				4F9A47F81BAC82C300DC84E0 /* CoreLocation.framework in Frameworks */,
+				4F9A47F61BAC82A700DC84E0 /* CoreTelephony.framework in Frameworks */,
+				4F9A47F41BAC829F00DC84E0 /* Security.framework in Frameworks */,
+				4F9A47F01BAC825B00DC84E0 /* FlintConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,13 @@
 		4F9A47B71BAC7D7B00DC84E0 = {
 			isa = PBXGroup;
 			children = (
+				4F9A47FD1BAC83A400DC84E0 /* libz.dylib */,
+				4F9A47F91BAC82CB00DC84E0 /* SystemConfiguration.framework */,
+				4F9A47F71BAC82C300DC84E0 /* CoreLocation.framework */,
+				4F9A47F51BAC82A700DC84E0 /* CoreTelephony.framework */,
+				4F9A47F31BAC829F00DC84E0 /* Security.framework */,
+				4F9A47F11BAC826400DC84E0 /* FlintConnect.bundle */,
+				4F9A47EF1BAC825B00DC84E0 /* FlintConnect.framework */,
 				4F9A47C21BAC7D7B00DC84E0 /* PaymentSampleAppiOS7 */,
 				4F9A47DC1BAC7D7B00DC84E0 /* PaymentSampleAppiOS7Tests */,
 				4F9A47C11BAC7D7B00DC84E0 /* Products */,
@@ -201,6 +228,7 @@
 			files = (
 				4F9A47CF1BAC7D7B00DC84E0 /* Main.storyboard in Resources */,
 				4F9A47D41BAC7D7B00DC84E0 /* LaunchScreen.xib in Resources */,
+				4F9A47F21BAC826400DC84E0 /* FlintConnect.bundle in Resources */,
 				4F9A47D11BAC7D7B00DC84E0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -347,8 +375,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pc/Desktop,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PaymentSampleAppiOS7/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,8 +391,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/pc/Desktop,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PaymentSampleAppiOS7/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
