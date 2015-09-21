@@ -19,9 +19,9 @@
 		4F9A47F81BAC82C300DC84E0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A47F71BAC82C300DC84E0 /* CoreLocation.framework */; };
 		4F9A47FA1BAC82CB00DC84E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A47F91BAC82CB00DC84E0 /* SystemConfiguration.framework */; };
 		4F9A47FE1BAC83A400DC84E0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A47FD1BAC83A400DC84E0 /* libz.dylib */; };
-		4F9A48661BB07D4700DC84E0 /* FlintConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9A48651BB07D4700DC84E0 /* FlintConnect.framework */; };
 		4F9A48681BB07D4D00DC84E0 /* FlintConnect.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4F9A48671BB07D4D00DC84E0 /* FlintConnect.bundle */; };
 		4F9A486C1BB07DAD00DC84E0 /* PMTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A486B1BB07DAD00DC84E0 /* PMTTextField.m */; };
+		4FF0BA081BB086EA00B19EE4 /* FlintConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF0BA071BB086EA00B19EE4 /* FlintConnect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		4F9A47F71BAC82C300DC84E0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4F9A47F91BAC82CB00DC84E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4F9A47FD1BAC83A400DC84E0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		4F9A48651BB07D4700DC84E0 /* FlintConnect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlintConnect.framework; sourceTree = "<group>"; };
 		4F9A48671BB07D4D00DC84E0 /* FlintConnect.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FlintConnect.bundle; sourceTree = "<group>"; };
 		4F9A486A1BB07DAD00DC84E0 /* PMTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMTTextField.h; sourceTree = "<group>"; };
 		4F9A486B1BB07DAD00DC84E0 /* PMTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMTTextField.m; sourceTree = "<group>"; };
+		4FF0BA071BB086EA00B19EE4 /* FlintConnect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlintConnect.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 				4F9A47F81BAC82C300DC84E0 /* CoreLocation.framework in Frameworks */,
 				4F9A47F61BAC82A700DC84E0 /* CoreTelephony.framework in Frameworks */,
 				4F9A47F41BAC829F00DC84E0 /* Security.framework in Frameworks */,
-				4F9A48661BB07D4700DC84E0 /* FlintConnect.framework in Frameworks */,
+				4FF0BA081BB086EA00B19EE4 /* FlintConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				4F9A48671BB07D4D00DC84E0 /* FlintConnect.bundle */,
-				4F9A48651BB07D4700DC84E0 /* FlintConnect.framework */,
 				4F9A47FD1BAC83A400DC84E0 /* libz.dylib */,
+				4FF0BA071BB086EA00B19EE4 /* FlintConnect.framework */,
 				4F9A47F91BAC82CB00DC84E0 /* SystemConfiguration.framework */,
 				4F9A47F71BAC82C300DC84E0 /* CoreLocation.framework */,
 				4F9A47F51BAC82A700DC84E0 /* CoreTelephony.framework */,
