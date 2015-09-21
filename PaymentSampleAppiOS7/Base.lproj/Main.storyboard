@@ -73,18 +73,27 @@
                                 <state key="normal" title="Add Item">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="handleAddItemTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MCg-0J-qTa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eJ-Xh-pLC">
                                 <rect key="frame" x="139" y="617" width="96" height="30"/>
                                 <state key="normal" title="Take Payment">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="handleTakePaymentTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Sj9-J8-5Ca"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMF-V1-Af1">
                                 <rect key="frame" x="167" y="559" width="40" height="30"/>
                                 <state key="normal" title="Reset">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="handleResetTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wSh-G1-MiP"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edk-rS-bPX">
                                 <rect key="frame" x="170" y="348" width="37" height="21"/>
@@ -129,6 +138,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CPY-cQ-Xqp"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="EMJ-f1-p9i" id="3ba-F2-Utg"/>
+                        <outlet property="priceTextField" destination="Hz8-Op-MaF" id="PiT-na-aPe"/>
+                        <outlet property="taxTextField" destination="Jcq-sV-afc" id="LgF-KX-sm9"/>
+                        <outlet property="totalLabel" destination="9KY-Lr-BFQ" id="2Xq-34-IG9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
