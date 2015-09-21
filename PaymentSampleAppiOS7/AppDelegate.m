@@ -51,7 +51,6 @@
    * For individual component customization, use our Default.css in the SDK framework bundle
    */
   [FlintCSSEngine setThemeColorWithRed:20 green:255 blue:150 alpha:1.0f];
-
   return YES;
 }
 
